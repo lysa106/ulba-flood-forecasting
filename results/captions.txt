@@ -1,0 +1,17 @@
+FIGURE CAPTIONS
+
+Figure 1. Observed and predicted daily discharge on the common test dates (2022–2023). The plot compares observed discharge with the predictions of LSTM A and LSTM C on the matched evaluation dates used in the pilot experiment.
+
+Figure 2. RMSE comparison of forecasting models on the common test dates. Lower RMSE indicates better predictive performance. In this pilot experiment, LSTM C achieved the lowest RMSE among all compared models.
+
+Figure 3. Ablation study results across three random seeds. Error bars represent the standard deviation of RMSE across seeds 17, 29, and 41. Positive RMSE change indicates worse performance relative to the full-input configuration.
+
+Figure 4. RMSE under normal-flow and high-flow conditions. High-flow days were defined using the 90th percentile of the training discharge series (Q90,train = 283 m³/s). The plot compares model error separately for normal-flow and high-flow observations.
+
+TABLE CAPTIONS
+
+Table 1. Final pilot model comparison on the common test dates.
+
+Table 2. Ablation study results showing the effect of removing individual predictors from the combined model.
+
+Table 3. Statistical comparison results for LSTM C against persistence, LSTM A, and LSTM B using block bootstrap confidence intervals and paired sign-flip tests.

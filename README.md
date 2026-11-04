@@ -102,6 +102,22 @@ To run the project:
 
 The project includes model comparison, an ablation study, and statistical testing.
 
+### Software Environment
+
+The pilot experiments were executed in Google Colab
+using the following environment:
+
+- Python 3.13.18
+- NumPy 2.4.6
+- Pandas 2.2.3
+- Scikit-learn 1.6.1
+- PyTorch 2.11.0+cpu
+- Matplotlib 3.10.0
+- SciPy 1.16.3
+
+Dependencies are listed in requirements.txt.
+
+
 ## Limitations
 
 - The current spatial extraction area is provisional.

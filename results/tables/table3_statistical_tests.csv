@@ -1,0 +1,4 @@
+RMSE reduction (%),CI lower (%),CI upper (%),p-value,Comparison
+23.3154,10.4533,31.5156,0.05,C vs Persistence
+11.4482,-2.5182,21.7613,0.1568,C vs LSTM A
+78.5548,74.9711,83.1474,0.001,C vs LSTM B

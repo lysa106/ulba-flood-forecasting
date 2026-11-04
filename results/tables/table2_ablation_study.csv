@@ -1,0 +1,4 @@
+Configuration,RMSE mean,RMSE SD,RMSE change
+All predictors,26.1844,0.4482,0.0
+Without precipitation,29.9781,0.5428,3.7937
+Without snow cover,25.0055,0.8953,-1.1789

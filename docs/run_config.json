@@ -1,0 +1,33 @@
+{
+  "experiment": "five_source_provisional",
+  "dataset": "Ulba_5sources_PROVISIONAL_2013_2023 (2).csv",
+  "five_source_predictors": [
+    "discharge_m3_s",
+    "precipitation_mm",
+    "snow_cover_mean",
+    "temperature_c",
+    "soil_moisture"
+  ],
+  "gridded_predictors": [
+    "precipitation_mm",
+    "snow_cover_mean",
+    "temperature_c",
+    "soil_moisture"
+  ],
+  "gauge_predictors": [
+    "discharge_m3_s"
+  ],
+  "lookback_days": 14,
+  "forecast_horizon_days": 1,
+  "forward_fill_limit_days": 2,
+  "training_period": "2013-01-01/2019-12-31",
+  "validation_period": "2020-01-01/2021-12-31",
+  "testing_period": "2022-01-01/2023-12-31",
+  "matched_test_dates": 343,
+  "ablation_seeds": [
+    17,
+    29,
+    41
+  ],
+  "caveat": "Provisional spatial coverage, not a verified upstream catchment."
+}

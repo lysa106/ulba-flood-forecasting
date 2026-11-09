@@ -1,0 +1,10 @@
+# Dependencies for the original three-source pilot notebook.
+# These are unpinned package names, not a frozen environment lockfile.
+numpy
+pandas
+scikit-learn
+torch
+matplotlib
+scipy
+ipykernel
+jupyter

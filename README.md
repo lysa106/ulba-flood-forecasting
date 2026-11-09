@@ -72,7 +72,22 @@ Forecasting performance is evaluated using:
 - Nash-Sutcliffe Efficiency (NSE)
 - Kling-Gupta Efficiency (KGE)
 - Percent Bias (PBIAS)
+  
+## Relationship to the Research Article
 
+The current repository documents a preliminary experiment using three input variables and 647 matched test dates.
+
+The research article reports a separate five-variable experiment evaluated on 343 matched test dates.
+
+The article reports the following main results:
+- Combined LSTM RMSE: 24.08 m³/s
+- Combined LSTM NSE: 0.955
+- RMSE reduction compared with persistence: 24.7%
+- RMSE reduction compared with gauge-only LSTM: 19.1%
+
+These results are reported in the manuscript but are not yet independently reproducible from the current repository version.
+
+The preliminary 647-date experiment and the manuscript's 343-date experiment must not be treated as identical.
 ## Preliminary Results
 
 The current pilot comparison uses 647 matching test dates.

@@ -11,7 +11,6 @@ This project investigates **next-day Ulba River discharge forecasting** at the U
 
 | Experiment | Inputs to combined LSTM C | Matched test dates | RMSE (m³/s) | NSE | Evidence |
 |---|---|---:|---:|---:|---|
-| Original 3-source pilot | Discharge, precipitation, snow cover | 647 | 25.8860 | 0.9566 | Original notebook and `results/` |
 | New 5-source VS Code run | Discharge, precipitation, snow cover, temperature, soil moisture | 343 | 22.3964 | 0.9614 | Saved executed outputs in VS Code notebook |
 | Research manuscript (previously reported) | Five-variable experiment as described in manuscript | 343 | 24.08 | 0.955 | Manuscript, **not independently reproduced by the new run** |
 

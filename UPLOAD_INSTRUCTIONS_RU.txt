@@ -1,0 +1,14 @@
+Как обновить GitHub, не удаляя старые результаты:
+
+1) Откройте https://github.com/lysa106/ulba-flood-forecasting
+2) Не удаляйте и не заменяйте старый ноутбук, CSV или таблицы с результатами статьи.
+3) В ветке для изменений через Add file > Upload files добавьте:
+   - notebooks/Ulba_Flood_Forecasting_5sources_VSCode.ipynb
+   - docs/FIVE_SOURCE_EXPERIMENT.md
+   - requirements_5sources.txt
+4) Откройте README.md в GitHub (карандаш Edit) и добавьте в конец содержимое README_ADDENDUM.md, сохранив старые разделы.
+5) С вашего компьютера из папки results_5sources/ загрузите ПОДЛИННЫЕ файлы model_comparison.csv, test_predictions.csv, ablation_results.csv, statistical_tests.csv, run_config.json в одноимённую папку репозитория, проверив, что эти данные разрешено публиковать.
+6) Публикуйте исходный CSV только после проверки прав на распространение данных всех поставщиков. Если нельзя — оформите инструкцию по получению данных без публикации CSV.
+7) Закоммитьте изменения: Add five-source LSTM experiment (preserve original results).
+
+ZIP-файл в этом пакете содержит новые файлы для добавления в проект. Github через браузер не разворачивает ZIP автоматически: перед загрузкой распакуйте его и загрузите файлы в нужные каталоги. В VS Code можно сделать это через Git, сохраняя структуру каталогов.
